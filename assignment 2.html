@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <script src="https://kit.fontawesome.com/61af18984e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assignment 2.css">
+
+</head>
+
+
+<body>
+    <div id="root">
+
+        <div id="functional" class="box">
+            <h1>Functional requirements</h1>
+            <ul class="hide" id="Items">
+                <li id="f1" onclick="alert1()">The system must keep the registration information in a secure database.
+                </li>
+                <li id="f2" onclick="alert2()">The system must enable users to sign in with their Google accounts.</li>
+                <li id="f3" onclick="alert3()">The system must store passwords as hashes to ensure a higher level of
+                    security.</li>
+                <li id="f4" onclick="alert4()">If an identification or password error occurs, the system should notify
+                    the user with a message. </li>
+                <li id="f5" onclick="alert5()">Each time the user attempts to login, the system must authenticate the
+                    identifiers to allow access.. </li>
+                <li id="f6" onclick="alert6()">The system must provide a login/registration interface to allow users to
+                    have their own ID to operate the application. </li>
+                <li id="f7" onclick="alert7()">The system must allow users to reset their password by clicking on "I
+                    forgot my password" and receiving a link to their verified email address.</li>
+                <li id="f8" onclick="alert8()">The system should provide an interface to address related questions to
+                    the user..</li>
+                <li id="f9" onclick="alert9()">The system must integrate the state-of-the-art algorithm into the app to
+                    provide answers to the user queries. </li>
+                <li id="f10" onclick="alert10()">The training dataset should be updated at regular intervals to improve
+                    the Ai model.</li>
+                <li id="f11" onclick="alert10()">The system must provide a history delete button and authorize the
+                    deletion of the previous history of queries to the user.</li>
+                <li id="f12" onclick="alert12()">The system should update the stored panel code and constitution based
+                    on the changes..</li>
+                <li id="f13" onclick="alert13()">The system needs to provide a share button to allow users to share
+                    results through msg using a link.</li>
+                <li id="f14" onclick="alert14()">The system must automatically log off when not in use for 30 minutes.
+                </li>
+                <li id="f15" onclick="alert15()">The system must ensure complete confidentiality by enforcing end-to-end
+                    encryption on query entries. </li>
+                <li id="f16" onclick="alert16()">The system should display the time necessary for the system to process
+                    the request and generate the result on a screen.</li>
+                <li id="f17" onclick="alert17()"> The system should maintain a dashboard for each user containing the
+                    history of all requests placed their respective answers. </li>
+                <li id="f18" onclick="alert18()">The system must allow the user to submit feedback through a contact
+                    form in the app. </li>
+                <li id="f19" onclick="alert19()">The system should provide a print button so that the user can download
+                    the response provided by the Ai in PDF format.</li>
+                <li id="f20" onclick="alert20()">The system should provide a multithreaded approach to manage multiple
+                    active users in parallel.
+                </li>
+            </ul>
+        </div>
+        <div id="nonfunctional" class="box">
+            <h1>Non Functional requirements</h1>
+            <ul class="hide">
+                <li>The system shall give 24X7 vacuity.</li>
+                <li>The system shall give better performance at peak time.</li>
+                <li>Any link in the navigation bar should be clickable in under a second.</li>
+                <li>TThe login details of the user must be protected.</li>
+                <li>The system should be sufficiently secure to prevent the disclosure of the user's private information
+                    to unauthorised users.</li>
+                <li>Roles and access rights can only be changed by the system data administrator.</li>
+                <li>The system must have an intuitive user interface.</li>
+                <li>Three clicks are the maximum allowed to finish a task.</li>
+                <li>Users must be informed in advance in the event of maintenance..</li>
+                <li>The system must be adaptable and capable of receiving additional features..</li>
+                <li>The system must enable secure access to customers' private information.</li>
+                <li>The system must offer improved component design.</li>
+                <li>The system will make sure that a flexible service-based architecture is highly desirable for future
+                    extensions.</li>
+                <li>Any changes to personal information should be made quickly and stored.</li>
+                <li>It should be hidden when the user enters their password to log in.</li>
+                <li>The system should be safe enough to guard against unauthorised users corrupting data.</li>
+                <li>The website needs to be resistant to DDoS and XSS attacks as well as other types of attacks.</li>
+                <li>App instructions must be written in simple words.</li>
+                <li>App should launch without delay and promptly..</li>
+                <li>The application should run on all widely used OS..</li>
+            </ul>
+        </div>
+        <div class="button">
+
+            <button id="btn1">Hide</button>
+            <button id="btn2">Reshuffle</button>
+            <button id="btn3" onclick="sortList()">Sort</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="assignment 2.js"></script>
+
+</html>
